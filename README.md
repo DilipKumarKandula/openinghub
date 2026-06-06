@@ -1,22 +1,39 @@
 # OpeningHub
 
-OpeningHub is a full-stack job management platform built with Next.js, TypeScript, Prisma, and MySQL. The platform enables users to discover job opportunities while providing administrators with tools to manage openings, monitor activity, and maintain job listings.
+OpeningHub is a modern full-stack job management platform built with Next.js, TypeScript, Prisma, and MySQL. It provides a streamlined experience for discovering job opportunities while offering administrators powerful tools to manage job listings, monitor activity, and maintain platform quality.
 
 ## Features
 
-- Job Discovery & Browsing
-- Advanced Search Functionality
-- Job Filtering by Experience, Work Mode, and Job Type
-- Sorting & Pagination
-- Job Details Page
-- Admin Dashboard
-- Job Creation
-- Job Editing
-- Job Activation & Deactivation
-- Analytics Dashboard with Charts
-- Responsive UI
-- Dark Mode Support
-- End-to-End Testing with Playwright
+### Job Discovery
+
+- Browse active job openings
+- Search by title, company, or location
+- Filter by experience level
+- Filter by work mode (Remote, Hybrid, On-Site)
+- Filter by job type
+- Sort job listings
+- Responsive user experience
+
+### Job Management
+
+- Create job openings
+- Edit existing job listings
+- Activate and deactivate jobs
+- Manage job visibility
+- View recent openings
+
+### Admin Dashboard
+
+- Job statistics overview
+- Active and inactive job tracking
+- Work mode analytics
+- Interactive charts and insights
+
+### Testing
+
+- End-to-end testing with Playwright
+- User workflow validation
+- Search and navigation testing
 
 ## Tech Stack
 
@@ -38,12 +55,13 @@ OpeningHub is a full-stack job management platform built with Next.js, TypeScrip
 
 ## Architecture Highlights
 
-- Server-side data fetching
+- Server-side rendering and data fetching
 - Database-driven workflows
-- Modular component architecture
-- Scalable folder structure
+- Component-based architecture
+- Scalable project structure
+- Type-safe development with TypeScript
 - Production-oriented development practices
-- Responsive and accessible user interface
+- Responsive and accessible UI design
 
 ## Getting Started
 
@@ -72,28 +90,31 @@ Run database migrations:
 npx prisma migrate dev
 ```
 
-Start development server:
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-Open:
+Visit:
 
+```text
 http://localhost:3000
+```
 
-## Future Enhancements
+## Roadmap
 
-- Job Approval Workflow
-- Authentication & Authorization
-- Role-Based Access Control
-- Email Notifications
-- Bookmark & Saved Jobs
-- Company Profiles
-- Deployment Monitoring
+- Job approval workflow
+- Authentication and authorization
+- Role-based access control
+- Saved jobs and bookmarks
+- Employer profiles
+- Email notifications
+- Advanced analytics
+- Public API integrations
 
-## License
+## Vision
 
-This project is intended for educational and portfolio purposes.
+OpeningHub is designed to simplify job discovery through a clean, efficient, and accessible experience. The platform focuses on usability, maintainability, and scalable architecture, with the goal of continuously evolving into a comprehensive ecosystem for job seekers and employers.
 
-Built with Next.js, Prisma, MySQL, and TypeScript.
+Built with Next.js, TypeScript, Prisma, and MySQL.
